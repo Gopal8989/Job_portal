@@ -1,0 +1,65 @@
+{
+  "name": "job_portal",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.4.1",
+    "bootstrap-select": "^1.13.12",
+    "concurrently": "^5.1.0",
+    "express": "^4.17.1",
+    "images": "^3.0.2",
+    "is-empty": "^1.2.0",
+    "jquery": "^3.4.1",
+    "jquery-slim": "^3.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mdbootstrap": "^4.12.0",
+    "mdbreact": "^4.25.1",
+    "mongoose": "^5.8.10",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "popper": "^1.0.1",
+    "popper.js": "^1.14.3",
+    "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-collapse": "^5.0.1",
+    "react-dom": "^16.12.0",
+    "react-otp-input": "^1.0.1",
+    "react-password-strength": "^2.4.0",
+    "react-redirect": "^1.0.0",
+    "react-scripts": "3.3.0",
+    "sendotp": "^1.2.9",
+    "set-image": "^1.0.2",
+    "validator": "^12.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "nodeman": "^1.1.2",
+    "nodemon": "^2.0.2"
+  }
+}

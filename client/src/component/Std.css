@@ -1,0 +1,112 @@
+
+* {
+    box-sizing: border-box;
+    align-items: center;
+    
+   
+  }
+  body {
+      /* background-image: url(https://assets-global.website-files.com/58531d7256ce728d0ed5fcf1/58531d7356ce728d0ed6030d_Template-Slideshow.jpg); */
+      background-image: url(https://www.livecareer.com/wp-content/qc/wp-content/uploads/2016/07/Job-Seeker.png);
+      filter: blur(0px);
+      -webkit-filter: blur(0px);
+      text-transform: uppercase;  
+      flex-direction: column; 
+      background-size: cover;
+  }
+  
+    form{
+      position: absolute;
+      right: 500px;
+      padding-bottom: 4px;
+      width: 500px;
+      border: 5px rgb(2, 19, 3) solid;
+      /* width: 350px;
+      height: 550px; */
+      box-shadow: 0px 7px rgb(3, 88, 138);
+      border-radius: 40px;
+      margin-top: 20px;
+      text-align: center;
+      padding: 50px 50px 10px 50px;
+      margin-bottom: 1px;
+   
+    }
+    
+    
+/* input[type=submit]:hover {
+  background-color: #21e92b;
+} 
+   button{
+    
+       background-color: rgb(3, 88, 138); outline: none;
+       cursor: pointer;
+       outline: none;
+       border: none;
+       box-shadow: 0 2px;
+       
+  } */
+  .button:hover { 
+       background-color:red;
+       border-radius: 20px;
+      
+  }
+  .button:active {
+      transform: translateY(4px);
+  }
+  .btnn:active {
+    transform: translateY(4px);
+}
+/* .form-controlll {
+  border :20px groove #e921ad;
+  display: block;
+  padding: 10px;
+  
+  text-align: center;
+  width: 500px;
+  height: 80px;
+  position: absolute;
+  right: 130px;
+  border-radius: 90px;
+  margin:0;
+  box-shadow: 0px 10px  rgb(3, 88, 138);
+} */
+
+/* 
+.form-inlineee{
+ 
+  padding-top: 10px;
+  background:rgb(204, 137, 160);
+  width: 800px;
+  height:150px;
+} */
+/* .btnnn{
+  width: 90px;
+  height: 60px;
+  background-color:rgb(3, 88, 138);
+  border-radius: 6px;
+} */
+.rounded-circle{
+  padding: 5px 0px;
+  width: 110px;
+  margin-top: -10px !important;
+  float: left;
+  flex: display;
+
+  height: auto;
+
+}
+
+.dropdown-menu:active{color:#c5a71f;}
+.dropdown-menu:focus, .dropdown-menu:hover{background:#2196f3 ;}
+.navbar{background:#2196f3 ;}
+.nav-item::after{content:'';display:block;width:0px;height:2px;background:#2196f3 ;transition: 0.2s;}
+.nav-item:hover::after{width:100%;}
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link,.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{color:#fec400;}
+.nav-link{padding:15px 5px;transition:0.2s;}
+
+
+
+
+
+    
+
