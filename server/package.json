@@ -26,7 +26,7 @@
     "mysql": "^2.18.1",
     "node-mysql": "^0.4.2",
     "nodemailer": "^6.4.3",
-    "otp-generator": "^1.1.0",
+    "otp-generator": "^3.0.0",
     "passport": "^0.4.1",
     "passport-jwt": "^4.0.0",
     "validator": "^12.2.0"
